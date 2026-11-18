@@ -1,0 +1,16 @@
+id = "local/mouse-charge"
+name = "Maya Charge"
+version = "0.1.1"
+plugin_api = 24
+author = "local"
+license = "MIT"
+icon = "mouse"
+description = "LAMZU Maya battery indicator for Linux"
+
+[[widget]]
+id = "battery"
+entry = "widget.luau"
+
+[[service]]
+id = "reader"
+entry = "service.luau"

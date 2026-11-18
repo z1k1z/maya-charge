@@ -1,0 +1,10 @@
+/target/
+/dist/
+/.*/
+!/.github/
+__pycache__/
+*.py[cod]
+*.bak
+.env
+.env.*
+.DS_Store

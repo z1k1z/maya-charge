@@ -1,0 +1,3 @@
+# Active local session only. These IDs match Maya's CompX receiver/cable.
+ACTION=="add|change", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f50d", TAG+="uaccess"
+ACTION=="add|change", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f50f", TAG+="uaccess"
